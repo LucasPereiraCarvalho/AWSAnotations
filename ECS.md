@@ -5,7 +5,8 @@
 -   [1. What is Docker?](#1-what-is-docker)
     -   [1.1 Where are Docker images stored?](#11-where-are-docker-images-stored)
     -   [1.2 Docker vs. Virtual Machines](#12-docker-vs-virtual-machines)
-    
+    -   [1.3 Getting Started with Docker](#13-getting-started-with-docker)
+    -   [1.4 Docker Containers Management on AWS](#14-docker-containers-management-on-aws)
 
 # 1. What is Docker?
 
@@ -18,7 +19,7 @@
     -   Less work
     -   Easier to maintain and deploy
     -   Works with any language, any OS, any technology
--   Use cases: microservices architecture, lift-and-shift apps from on- premises to the AWS cloud, …
+-   Use cases: microservices architecture, lift-and-shift apps from on-premises to the AWS cloud, …
 
 <img src="images/dockerOnAnOS.PNG" style="height: 350px; width:450px;"/>
 
@@ -38,3 +39,19 @@
 - Resources are shared with the host => many containers on one server
 
 <img src="images/DockerVsVirtualMachines.PNG"/>
+
+## 1.3 Getting Started with Docker
+
+<img src="images/GettingStartedWithDocker.PNG"/>
+
+## 1.4 Docker Containers Management on AWS
+
+- **Amazon Elastic Container Service (Amazon ECS):**
+  - Amazon's own container platform.
+- **Amazon Elastic Kubernetes Service (Amazon EKS):**
+  - Amazon's managed Kubernetes (open source).
+- **AWS Fargate:**
+  - Amazon's own Serverless container platform.
+  - Works with ECS and with EKS.
+- **Amazon Elastic Container Registry (Amazon ECR):**
+  - Store container images.
